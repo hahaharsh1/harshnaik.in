@@ -27,7 +27,7 @@ body{
    portrait image fills a wide screen. */
 body::before{
   content:""; position:fixed; inset:0; z-index:-1;
-  background:url("images/___3_.jpeg") center/cover no-repeat;
+  background:url("images/background.jpeg") center/cover no-repeat;
 }
 @media (orientation:landscape){
   body::before{
